@@ -26,6 +26,7 @@ body{
     left: 160px; 
     font-size: 80px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 30px;
 }
 .img-back p{
     bottom: 40%; 
@@ -34,6 +35,8 @@ body{
     font-size: 25px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     line-height: 30px;
+    text-align: start;
+    line-height: 40px;
 }
 
 .img-back .app-btn{
@@ -118,7 +121,7 @@ body{
     border: 3px solid rgb(0, 122, 198);
 }
 
-.form-input-2 input:focus{
+.form-input-2 select:focus{
     outline: none;
     border: 3px solid rgb(0, 122, 198);
 }
@@ -139,6 +142,7 @@ body{
     border: 1px solid rgb(168, 163, 163);
     border-radius: 4px;
     font-size: 18px;
+    color:  rgb(128, 124, 124);
 }
 
 .form-input-2 input[type="text"]{
