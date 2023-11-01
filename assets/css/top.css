@@ -118,6 +118,13 @@ body{
     border: 3px solid rgb(0, 122, 198);
 }
 
+.form-input-2 input:focus{
+    outline: none;
+    border: 3px solid rgb(0, 122, 198);
+}
+
+
+
 .form-input-2 {
     flex: 1;
     padding-left: 25px;
@@ -167,6 +174,47 @@ body{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
 }
 
+/*why gg section*/
+.why-container{
+    height: 700px;
+    background-color: #eaf2ff;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-left: 74px;
+    width: 91.5%;
+    position: relative;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.why-container img{
+    width:1014px;
+  }
+
+  .why-container b{
+    position: absolute;
+    top: 220px;
+    right: 175px;
+    font-size: 35px;
+    padding:25px
+  }
+  .why-container ul{
+    position: absolute;
+    top: 300px;
+    right: 120px;
+  }
+  .why-container li{
+    list-style: none;
+    padding: 14px;
+  }
+  .why-container li img{
+    width:25px;
+    height:25px;
+    padding-right:10px ;
+  }
+
+
+/*department section*/
+
 .department-img {
     padding-top: 30px;
     display: flex;  
@@ -179,9 +227,15 @@ body{
     align-self: center;   
  }
 
- .department-img-sub h1,p{
+ .department-img-sub h1{
     padding-top: 10px;
     padding-bottom: 10px;
+ }
+
+ .department-img-sub p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
  }
 
  .department-img-sub p{
@@ -266,4 +320,287 @@ body{
     height: 270px;
     align-self: center;   
  }
+ /*bottom section*/
 
+ .bottom-container{
+    height: 700px;
+    background-color: #eaf2ff;
+    box-sizing: border-box;
+    margin-top: 400px;
+    width: 100%;
+    position: absolute;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+ /*interested container*/
+
+ .interested-img {
+    padding-top: 30px;
+    padding-left: 70px;
+    display: flex;  
+ }
+
+ .interested-img-sub img{
+    
+    flex: 1;
+    height: 280px;
+    width: 450px;
+    align-self: center;   
+    
+ }
+
+ .interested-img-sub h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .interested-img-sub p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+ }
+
+ .interested-img-sub p{
+    line-height: 25px;
+ }
+
+ .interested-img-sub a{
+    color: #17c1a3;
+    font-size: 16px;
+ }
+
+.interested-container{
+    padding-top: 400px;
+    position: relative;
+    bottom: 600px;
+    
+}
+
+.interested-container .interested-heading{
+    font-size: large;  
+    text-align: center;
+
+ }
+
+ /*newsletter section*/
+
+ .bottom-container .newsletter-container{
+    height: 250px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 80%;
+    position: relative;
+    bottom: 500px;
+    left: 160px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+}
+
+.bottom-container .newsletter-container .newsletter-text{
+    position: relative;
+    bottom: -100px;
+    left: 100px;
+    font-size: x-large;
+    flex: 1;
+}
+
+ .newsletter-email input[type="text"]{
+    position: relative;
+    bottom: -80px;
+    right:200px ;
+    width: 130%;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-right: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(168, 163, 163);;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.newsletter-btn{
+        bottom: -25px;
+        right:-100px ;
+        position: relative;
+        color: white;
+        background-color: #17c1a3;
+        border-radius: 5%;
+        border: none;
+        text-align: center;
+        height:45px;
+        width: 51%;
+        font-size: 20px;
+        text-align: center;
+
+}
+
+.newsletter-btn:focus{
+    outline: none;
+}
+
+
+ /*footer section*/
+footer{
+    background-color: #F9FAFA;
+    padding: 50px 20px;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 1100px;
+}
+ 
+footer .top-section{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+ 
+ 
+footer .top-section .logo{
+    width: 30%;
+    text-align: start;
+    padding: 30px;
+}
+ 
+ 
+footer .top-section .logo p{
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+ 
+footer .top-section .about{
+    text-align: start;
+    padding: 50px;
+}
+ 
+footer .top-section .about h3{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ 
+ 
+footer .top-section .about li{
+    padding: 20px 50px 10px 0;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+footer .top-section .about .about-items{
+    display: flex;
+}
+ 
+ 
+footer .top-section .legal{
+    text-align: start;
+    padding: 50px;
+}
+ 
+footer .top-section .legal h3{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ 
+ 
+footer .top-section .legal li{
+    padding: 20px 20px 0 0;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+ 
+}
+ 
+footer .top-section .legal .legal-items{
+    display: flex;
+}
+ 
+ 
+ 
+hr.footer-separator{
+ 
+    border-top: 0.0005rem solid #8a8a8a;
+}
+ 
+ 
+ 
+footer .bottom-section{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+ 
+footer .bottom-section .address-container{
+    text-align: start;
+    /* padding: 25px 0; */
+    padding: 25px;
+    display: flex;
+}
+ 
+footer .bottom-section .address-container img{
+    margin-bottom: 60px;
+    margin-right: 5px;
+    width: 15px;
+}
+footer .bottom-section .address-container p{
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+ 
+footer .bottom-section .phone-container{
+    text-align: start;
+    padding: 25px 0;
+}
+ 
+ 
+footer .bottom-section .phone-container p{
+    padding-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+ 
+footer .bottom-section .email-container{
+    text-align: start;
+    padding: 25px 0;
+}
+ 
+footer .bottom-section .email-container p{
+    padding-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+footer .bottom-section .socials-container{
+    text-align: start;
+    padding: 25px;
+}
+ 
+footer .bottom-section .socials-container h3{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ 
+footer .bottom-section .socials-container ul{
+    display: flex;
+}
+ 
+footer .bottom-section .socials-container ul li{
+    padding: 10px;
+    list-style: none;
+ 
+}
+
+footer .copyright{
+    text-align: center;
+}
